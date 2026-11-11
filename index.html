@@ -5,76 +5,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tríade 3D - Impressão 3D personalizada, protótipos e produtos sob medida.">
-    <title>Tríade 3D | Modelando Ideias</title>
-    <link rel="icon" href="img/triade3d.jpg">
+    <meta name="description" content="Tríade 3D - Impressão 3D personalizada, chaveiros, decoração, prototipagem e peças sob medida.">
+    <meta name="theme-color" content="#080808">
+    <title>Tríade 3D | Modelando Ideias, Construindo Realidades</title>
+    <link rel="icon" href="img/triade3d.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header class="cabecalho">
+    <a href="#conteudo" class="pular-conteudo">
+        Pular para o conteúdo
+    </a>
+
+    <header class="cabecalho" id="inicio">
         <div class="container cabecalho-conteudo">
 
             <a href="#inicio" class="logo">
-                <img src="img/triade3d.jpg" alt="Logo Tríade 3D">
-
+                <img src="img/triade3d.png" alt="Logo Tríade 3D">
                 <div class="logo-texto">
                     <strong>TRÍADE <span>3D</span></strong>
                     <small>IMPRESSÃO 3D PERSONALIZADA</small>
                 </div>
             </a>
 
-            <nav class="menu" aria-label="Menu principal">
+            <nav class="menu" aria-label="Navegação principal">
                 <a href="#inicio">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#catalogo">Catálogo</a>
                 <a href="#servicos">Serviços</a>
-                <a href="#pedido" class="menu-botao">Como encomendar</a>
+                <a href="#pedido">Como encomendar</a>
+                <a href="#contato" class="menu-botao">Contato</a>
             </nav>
 
         </div>
     </header>
 
-    <main>
+    <main id="conteudo">
 
-        <section class="hero" id="inicio">
+        <section class="hero" aria-label="Banner principal">
             <img
-                src="img/ChatGPT Image 21 de ago. de 2026, 02_09_34.jpg"
-                alt="Tríade 3D - Modelando ideias, construindo realidades"
                 class="banner-principal"
+                src="img/top.jpg"
+                alt="Tríade 3D - Modelando ideias, construindo realidades"
+                fetchpriority="high"
             >
         </section>
 
         <section class="apresentacao">
             <div class="container apresentacao-conteudo">
 
-                <div class="apresentacao-texto">
-                    <span class="destaque">BEM-VINDO À TRÍADE 3D</span>
+                <span class="destaque">
+                    BEM-VINDO À TRÍADE 3D
+                </span>
 
-                    <h1>
-                        Modelando ideias,
-                        <span>construindo realidades.</span>
-                    </h1>
+                <h1>
+                    Modelando ideias,
+                    <span>construindo realidades.</span>
+                </h1>
 
-                    <p>
-                        Transformamos ideias em produtos reais
-                        utilizando tecnologia de impressão 3D.
-                        Desenvolvemos peças personalizadas,
-                        chaveiros, objetos decorativos, protótipos
-                        e projetos especiais.
-                    </p>
+                <p>
+                    Transformamos ideias em produtos reais utilizando
+                    a tecnologia de impressão 3D. Desenvolvemos
+                    chaveiros, objetos decorativos, acessórios,
+                    protótipos e peças personalizadas para
+                    diferentes necessidades.
+                </p>
 
-                    <div class="botoes">
-                        <a href="#catalogo" class="botao botao-dourado">
-                            Explorar catálogo
-                        </a>
+                <div class="botoes">
+                    <a href="#catalogo" class="botao botao-dourado">
+                        Explorar catálogo
+                    </a>
 
-                        <a href="#pedido" class="botao botao-contorno">
-                            Como encomendar
-                        </a>
-                    </div>
-
+                    <a href="#pedido" class="botao botao-contorno">
+                        Como encomendar
+                    </a>
                 </div>
 
             </div>
@@ -84,72 +89,83 @@
             <div class="container beneficios-grade">
 
                 <article class="beneficio">
-                    <span>⬡</span>
-                    <h3>Impressão 3D</h3>
-                    <p>Produção sob demanda</p>
+                    <span class="beneficio-icone">⬡</span>
+                    <h2>Impressão 3D</h2>
+                    <p>Produção personalizada</p>
                 </article>
 
                 <article class="beneficio">
-                    <span>✦</span>
-                    <h3>Personalização</h3>
-                    <p>Produtos exclusivos</p>
+                    <span class="beneficio-icone">✦</span>
+                    <h2>Criatividade</h2>
+                    <p>Ideias exclusivas</p>
                 </article>
 
                 <article class="beneficio">
-                    <span>⚙</span>
-                    <h3>Prototipagem</h3>
-                    <p>Desenvolvimento de peças</p>
+                    <span class="beneficio-icone">⚙</span>
+                    <h2>Prototipagem</h2>
+                    <p>Peças sob medida</p>
                 </article>
 
                 <article class="beneficio">
-                    <span>◇</span>
-                    <h3>Criatividade</h3>
-                    <p>Projetos personalizados</p>
+                    <span class="beneficio-icone">◇</span>
+                    <h2>Personalização</h2>
+                    <p>Projetos do seu jeito</p>
                 </article>
 
             </div>
         </section>
 
-        <section class="secao sobre" id="sobre">
-            <div class="container sobre-conteudo">
+        <section class="sobre" id="sobre">
 
-                <div class="sobre-imagem">
-                    <img src="img/triade3d.jpg" alt="Identidade visual da Tríade 3D">
-                </div>
+            <div class="sobre-imagem">
+                <img
+                    src="img/impressao3d.png"
+                    alt="Impressora 3D e peças personalizadas"
+                    loading="lazy"
+                >
+            </div>
 
-                <div class="sobre-texto">
-                    <span class="destaque">QUEM SOMOS</span>
+            <div class="sobre-conteudo">
 
-                    <h2>
-                        Tecnologia e criatividade
-                        <span>em cada projeto.</span>
-                    </h2>
+                <span class="destaque">QUEM SOMOS</span>
 
-                    <p>
-                        A Tríade 3D é dedicada à criação
-                        e produção de produtos personalizados
-                        utilizando a tecnologia de impressão 3D.
-                    </p>
+                <h2>
+                    Tecnologia e criatividade
+                    <span>em cada projeto.</span>
+                </h2>
 
-                    <p>
-                        Trabalhamos com a transformação de ideias
-                        em objetos físicos, permitindo desenvolver
-                        peças com diferentes cores, tamanhos,
-                        formatos e finalidades.
-                    </p>
+                <p>
+                    A Tríade 3D é dedicada à criação e produção
+                    de produtos personalizados utilizando
+                    a tecnologia de impressão tridimensional.
+                </p>
 
-                    <p>
-                        Cada solicitação é analisada conforme
-                        suas características, dimensões,
-                        materiais e tempo de produção.
-                    </p>
+                <p>
+                    Trabalhamos com a transformação de ideias
+                    em objetos físicos, permitindo desenvolver
+                    peças com diferentes cores, tamanhos,
+                    formatos e finalidades.
+                </p>
 
-                    <a href="#servicos" class="link-dourado">
-                        Conheça nossos serviços →
-                    </a>
-                </div>
+                <p>
+                    Cada projeto é avaliado conforme suas
+                    características, dimensões, materiais
+                    e tempo de produção.
+                </p>
+
+                <a href="#servicos" class="link-dourado">
+                    Conheça nossos serviços →
+                </a>
 
             </div>
+        </section>
+
+        <section class="banner-secundario">
+            <img
+                src="img/secudario.png"
+                alt="Tríade 3D - Tecnologia e inovação"
+                loading="lazy"
+            >
         </section>
 
         <section class="secao catalogo" id="catalogo">
@@ -163,8 +179,8 @@
                     </h2>
 
                     <p>
-                        Conheça algumas das possibilidades
-                        de personalização e impressão 3D.
+                        Conheça algumas possibilidades de
+                        personalização e impressão 3D.
                     </p>
                 </div>
 
@@ -172,19 +188,25 @@
 
                     <article class="card-produto">
 
-                        <div class="produto-visual chaveiros">
-                            <span>🔑</span>
+                        <div class="produto-imagem">
+                            <img
+                                src="img/chaveiro.png"
+                                alt="Chaveiros personalizados em impressão 3D"
+                                loading="lazy"
+                            >
+                            <span class="produto-etiqueta">
+                                PERSONALIZADOS
+                            </span>
                         </div>
 
                         <div class="produto-conteudo">
-                            <span class="categoria">PERSONALIZADOS</span>
-
                             <h3>Chaveiros 3D</h3>
 
                             <p>
-                                Chaveiros com nomes, logotipos,
-                                símbolos e desenhos personalizados
-                                para presentes e empresas.
+                                Chaveiros personalizados com nomes,
+                                logotipos, símbolos e desenhos.
+                                Ideais para presentes, eventos,
+                                empresas e lembranças especiais.
                             </p>
 
                             <div class="produto-rodape">
@@ -195,21 +217,27 @@
 
                     </article>
 
-                    <article class="card-produto">
+                    <article class="card-produto card-destaque">
 
-                        <div class="produto-visual decoracao">
-                            <span>🏆</span>
+                        <div class="produto-imagem">
+                            <img
+                                src="img/escultura (1).png"
+                                alt="Esculturas e peças decorativas em impressão 3D"
+                                loading="lazy"
+                            >
+                            <span class="produto-etiqueta">
+                                DECORAÇÃO
+                            </span>
                         </div>
 
                         <div class="produto-conteudo">
-                            <span class="categoria">DECORAÇÃO</span>
-
                             <h3>Peças decorativas</h3>
 
                             <p>
-                                Objetos decorativos, acessórios,
-                                lembranças e peças criativas
-                                produzidas com impressão 3D.
+                                Esculturas, vasos, acessórios,
+                                lembranças e objetos decorativos
+                                personalizados para diferentes
+                                ambientes e ocasiões.
                             </p>
 
                             <div class="produto-rodape">
@@ -222,18 +250,23 @@
 
                     <article class="card-produto">
 
-                        <div class="produto-visual tecnicas">
-                            <span>⚙️</span>
+                        <div class="produto-imagem">
+                            <img
+                                src="img/impressao3d.png"
+                                alt="Engrenagens, suportes, protótipos e peças técnicas impressas em 3D"
+                                loading="lazy"
+                            >
+                            <span class="produto-etiqueta">
+                                SOB MEDIDA
+                            </span>
                         </div>
 
                         <div class="produto-conteudo">
-                            <span class="categoria">SOB MEDIDA</span>
-
                             <h3>Peças técnicas</h3>
 
                             <p>
-                                Componentes, protótipos e
-                                peças personalizadas conforme
+                                Componentes, suportes, engrenagens
+                                e protótipos personalizados conforme
                                 as medidas e necessidades
                                 de cada projeto.
                             </p>
@@ -250,9 +283,10 @@
 
                 <div class="catalogo-aviso">
                     <p>
-                        Os valores são calculados conforme
-                        material, dimensões, quantidade
-                        e complexidade de cada produto.
+                        As imagens são ilustrativas das possibilidades
+                        de impressão 3D. Os valores são calculados
+                        conforme material, dimensões, quantidade,
+                        acabamento e complexidade de cada peça.
                     </p>
                 </div>
 
@@ -264,14 +298,11 @@
 
                 <div class="titulo-secao">
                     <span class="destaque">O QUE FAZEMOS</span>
-
-                    <h2>
-                        Nossas <span>soluções</span>
-                    </h2>
+                    <h2>Nossas <span>soluções</span></h2>
 
                     <p>
-                        Tecnologia e criatividade
-                        para diferentes necessidades.
+                        Tecnologia e criatividade aplicadas
+                        às diferentes necessidades dos clientes.
                     </p>
                 </div>
 
@@ -281,9 +312,8 @@
                         <span class="servico-numero">01</span>
                         <h3>Impressão 3D</h3>
                         <p>
-                            Produção de peças e objetos
-                            personalizados por meio
-                            de impressão tridimensional.
+                            Produção de peças, objetos e acessórios
+                            personalizados por meio da impressão 3D.
                         </p>
                     </article>
 
@@ -291,9 +321,8 @@
                         <span class="servico-numero">02</span>
                         <h3>Personalização</h3>
                         <p>
-                            Desenvolvimento de produtos
-                            com diferentes cores,
-                            medidas e características.
+                            Produtos com nomes, símbolos, medidas,
+                            cores e formatos especiais.
                         </p>
                     </article>
 
@@ -301,9 +330,9 @@
                         <span class="servico-numero">03</span>
                         <h3>Prototipagem</h3>
                         <p>
-                            Criação de modelos e peças
-                            para apresentação e avaliação
-                            de projetos.
+                            Criação de modelos e peças para
+                            apresentação, testes iniciais
+                            e avaliação de projetos.
                         </p>
                     </article>
 
@@ -311,9 +340,8 @@
                         <span class="servico-numero">04</span>
                         <h3>Projetos especiais</h3>
                         <p>
-                            Avaliação de ideias para
-                            desenvolver soluções
-                            personalizadas sob demanda.
+                            Avaliação de ideias e desenvolvimento
+                            de peças personalizadas sob demanda.
                         </p>
                     </article>
 
@@ -333,8 +361,8 @@
                     </h2>
 
                     <p>
-                        Veja como funciona o processo
-                        de solicitação de produtos.
+                        Conheça o processo para solicitar
+                        um produto personalizado na Tríade 3D.
                     </p>
                 </div>
 
@@ -342,77 +370,87 @@
 
                     <li class="etapa">
                         <span class="numero">01</span>
-
                         <div>
                             <h3>Escolha seu produto</h3>
                             <p>
-                                Selecione uma categoria
-                                ou apresente sua ideia.
+                                Selecione uma categoria do catálogo
+                                ou apresente sua ideia personalizada.
                             </p>
                         </div>
                     </li>
 
                     <li class="etapa">
                         <span class="numero">02</span>
-
                         <div>
                             <h3>Defina os detalhes</h3>
                             <p>
-                                Informe medidas, cores,
-                                quantidade e personalização.
+                                Informe cores, medidas, quantidade
+                                e características desejadas.
                             </p>
                         </div>
                     </li>
 
                     <li class="etapa">
                         <span class="numero">03</span>
-
                         <div>
                             <h3>Aprove o orçamento</h3>
                             <p>
-                                Receba o orçamento
-                                e confirme seu pedido.
+                                Receba o orçamento e confirme
+                                as informações antes da produção.
                             </p>
                         </div>
                     </li>
 
                     <li class="etapa">
                         <span class="numero">04</span>
-
                         <div>
                             <h3>Produção e entrega</h3>
                             <p>
-                                O produto entra na produção
-                                e a entrega é combinada.
+                                Após a aprovação, a peça entra
+                                em produção e a entrega é combinada.
                             </p>
                         </div>
                     </li>
 
                 </ol>
 
+                <div class="pedido-acao">
+                    <a href="#contato" class="botao botao-dourado">
+                        Como solicitar orçamento
+                    </a>
+                </div>
+
             </div>
         </section>
 
         <section class="contato" id="contato">
+
+            <div class="contato-imagem">
+                <img
+                    src="img/contato.png"
+                    alt="Informações de contato da Tríade 3D"
+                    loading="lazy"
+                >
+            </div>
+
             <div class="container contato-conteudo">
 
-                <div>
-                    <span class="destaque">TRÍADE 3D</span>
+                <span class="destaque">FALE COM A TRÍADE 3D</span>
 
-                    <h2>
-                        Sua ideia pode ser
-                        <span>nosso próximo projeto.</span>
-                    </h2>
+                <h2>
+                    Sua ideia pode ser
+                    <span>nosso próximo projeto.</span>
+                </h2>
 
-                    <p>
-                        Conheça as possibilidades
-                        da impressão 3D personalizada
-                        e prepare sua solicitação de orçamento.
-                    </p>
-                </div>
+                <p>
+                    Entre em contato com a Tríade 3D para
+                    apresentar sua ideia, conversar sobre
+                    as possibilidades de produção e
+                    solicitar um orçamento personalizado.
+                </p>
 
-                <a href="https://wa.me/5586981577350?text=Ol%C3%A1%20vigermenio,%20vim%20pelo%20seu%20portf%C3%B3lio!" class="botao botao-dourado">
-                    Como solicitar orçamento
+                <a href="#pedido" class="botao botao-dourado">
+                    Ver etapas do orçamento
                 </a>
 
             </div>
@@ -421,10 +459,15 @@
     </main>
 
     <footer class="rodape">
+
         <div class="container rodape-conteudo">
 
             <div class="rodape-logo">
-                <img src="img/triade3d.jpg" alt="Logo Tríade 3D">
+                <img
+                    src="img/triade3d.jpg"
+                    alt="Logo da Tríade 3D"
+                    loading="lazy"
+                >
 
                 <div>
                     <strong>TRÍADE 3D</strong>
@@ -432,21 +475,25 @@
                 </div>
             </div>
 
-            <nav aria-label="Links do rodapé">
+            <nav aria-label="Navegação do rodapé">
                 <a href="#inicio">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#catalogo">Catálogo</a>
                 <a href="#servicos">Serviços</a>
                 <a href="#pedido">Pedidos</a>
+                <a href="#contato">Contato</a>
             </nav>
 
         </div>
 
         <div class="container rodape-final">
             <p>
-                © 2026 Tríade 3D - Projeto acadêmico de desenvolvimento web.
+                © 2026 Tríade 3D.
+                Projeto acadêmico de desenvolvimento web.
             </p>
         </div>
+
     </footer>
+
 </body>
 </html>
